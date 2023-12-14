@@ -1,321 +1,125 @@
 {
-    "contact": [
+    "contact": {
+        "email": "alicecorry@icloud.com",
+        "linkedin": "www.linkedin.com/in/alice-corry",
+        "github": [
+            "github.com/ac-png (College)",
+            "github.com/alice-corry (Personal)"
+        ],
+        "portfolio": "www.example.come/alice-corry"
+    },
+    "profile": {
+        "languages": ["English (Native)"],
+        "name": "Alice Corry",
+        "occupation": "Creative Computing Student | Seeking Data Internship Opportunities",
+        "location": "Dublin 5, County Dublin, Ireland",
+        "summary": "I'm a 3rd-year Creative Computing student working in Hospitality at M&S. I enjoy blending tech with great customer service. I've learned teamwork and problem-solving in my job. I'm actively seeking an internship in Data to enhance my skills further. I'm excited to use my tech skills in real-world situations."
+    },
+    "experience": [
         {
-            "name": "Alice Corry",
-            "email": "alicecorry@icloud.com",
-            "phone": "086-070-8954",
-            "address": {
-                "street": "93 Foxfield Road",
-                "city": "Raheny",
-                "county": "Dublin",
-                "zip": "D05K194"
-            },
-            "social_media": {
-                "linkedin": "www.linkedin.com/in/alice-corry",
-                "github": "https://github.com/ac-png"
-            },
-            "website": "https://example.com/Alice-Corry"
-        }
-    ],
-    "experience":
-    [
-        {
-            "position": "Hospitality Sales Assistant",
-            "company": "Marks & Spencer",
-            "location": "Grafton Street, City Centre, Dublin",
-            "start_date": "15-06-2023",
-            "end_date": "Present",
-            "responsibilities": ["", ""]
+            "position": "Hospitality Sales Advisor",
+            "company": "Marks and Spencer",
+            "duration": "June 2023 - Present (7 months)",
+            "location": "City Centre, County Dublin, Ireland",
+            "responsibilities": [
+                "Deliver exceptional customer service within the cafe.",
+                "Proficient in barista skills.",
+                "Skilled in cash handling.",
+                "Efficiently execute all cafe operations.",
+                "Collaborate with team members and supervisors."
+            ]
         },
         {
-            "position": "Camp Assistant",
+            "position": "Summer Camp Assistant",
             "company": "Dún Laoghaire Institute of Art, Design and Technology",
-            "location": "Dún Laoghaire, Dublin",
-            "start_date": "12-06-2022",
-            "end_date": "14-06-2023",
-            "responsibilities": ["", ""]
+            "duration": [
+                "12 June 2022 - 14 June 2022 (3 days)", 
+                "11 June 2023 - 13 June 2023 (3 days)"
+            ],
+            "location": "Dún Laoghaire, County Dublin, Ireland",
+            "responsibilities": [
+                "Assisted instructors in organising and supervising computing activities.",
+                "Guided and supported campers.",
+                "Set up and maintained computer labs.",
+                "Guided coding exercises.",
+                "Resolved technical issues promptly."
+            ]
         },
         {
             "position": "Assistant Co-ordinator",
             "company": "Bayside Youth Club",
-            "location": "Bayside, Dublin",
-            "start_date": "01-12-2017",
-            "end_date": "31-05-2018",
-            "responsibilities": ["", ""]
+            "duration": "December 2017 - May 2018 (6 months)",
+            "location": "Bayside, Dublin, Ireland",
+            "responsibilities": [
+                "Ensured a safe environment for children and organised engaging activities.",
+                "Managed inventory and efficiently ordered necessary supplies.",
+                "Supported team members to foster inclusivity.",
+                "Assisted with food and beverage service.",
+                "Handled administrative tasks for the club."
+            ]
         },
         {
             "position": "Creche Assistant",
             "company": "Kids Klubs",
-            "location": "Bayside, Dublin",
-            "start_date": "07-02-2018",
-            "end_date": "14-02-2018",
-            "responsibilities": ["", ""]
+            "duration": "5 February 2018 - 16 February 2018 (2 weeks)",
+            "location": "Bayside, Dublin, Ireland",
+            "responsibilities": [
+                "Supported daily activities for children aged 2-4.",
+                "Assisted with caregiving tasks.",
+                "Engaged children in entertaining and educational games.",
+                "Supported the lead teacher in implementing routines."
+            ]
         },
         {
             "position": "Charity Shop Assistant",
             "company": "St Vincent de Paul",
-            "location": "Kilbarrack, Dublin",
-            "start_date": "05-12-2017",
-            "end_date": "10-12-2017",
-            "responsibilities": ["", ""]
+            "duration": "11 December 2017 - 15 December 2017 (1 week)",
+            "location": "Kilbarrack, Dublin, Ireland",
+            "responsibilities": [
+                "Provided customer service in a charity shop.",
+                "Managed merchandise arrangement, pricing.",
+                "Efficiently operated the cash register.",
+                "Collaborated with the team to promote the charity's mission."
+            ]
         }
     ],
-    "education":
-    [
+    "education": [
         {
-            "degree": "Bachelor of Science in Creative Computing",
-            "school": "Dún Laoghaire Institute of Art, Design and Technology",
-            "location": "Dún Laoghaire, Dublin",
-            "graduation_date": "May 2025"
+            "degree": "Bachelor's degree, Creative Computing",
+            "institution": "Dún Laoghaire Institute of Art, Design and Technology",
+            "duration": "September 2021 - May 2025 (4 years)"
         },
         {
-            "degree": "QQI Certificate in Multimedia Production (5M2146) – NFQ Level 5",
-            "school": "Ballsbridge College of Further Education",
-            "location": "Ballsbridge, Dublin",
-            "graduation_date": "May 2021"
+            "certificate": "QQI Certificate in Multimedia Production (5M2146) – NFQ Level 5, Web Design & Multimedia",
+            "institution": "Ballsbridge College of Further Education",
+            "duration": "September 2020 - April 2021 (1 year)"
         },
         {
             "degree": "Leaving Certificate",
-            "school": "Santa Sabina Dominican College",
-            "location": "Sutton, Dublin",
-            "graduation_date": "May 2020"
+            "institution": "Santa Sabina Dominican College",
+            "duration": "September 2014 - May 2020 (6 years)"
         }
     ],
-    "projects":
-    [
+    "projects": [
         {
-            "title": "Portfolio",
-            "slug": "portfolio",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "12/12/2012",
-            "technologies": [
-                "REACT",
-                "Javascript",
-                "HTML"
+            "title": "Portfolio Website",
+            "description": "Designed and developed my personal portfolio website to showcase my skills and projects.",
+            "technologies": ["HTML", "CSS", "JavaScript", "React"],
+            "github": "https://github.com/yourusername/portfolio",
+            "website": "https://yourportfolio.com",
+            "date": "2023-01-01",
+            "role": "Developer",
+            "responsibilities": [
+                "Frontend design",
+                "Backend development",
+                "Deployment"
             ],
-            "website": "https://portfolio-db0f3.web.app",
-            "github": "https://github.com/ac-png/Portfolio"
-        },
-        {
-            "title": "College",
-            "slug": "college",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "12/12/2012",
-            "technologies": [
-                "REACT",
-                "Javascript",
-                "HTML"
+            "highlights": [
+                "Responsive design for various screen sizes",
+                "Implemented smooth animations using React Spring",
+                "Integrated contact form with email notification"
             ],
-            "website": "https://example.com/College",
-            "github": "https://github.com/ac-png/College"
-        },
-        {
-            "title": "Intro to Databases",
-            "slug": "intro-to-databases",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "12/12/2012",
-            "technologies": [
-                "MySQL"
-            ],
-            "website": "https://example.com/Intro-to-Databases",
-            "github": "https://github.com/ac-png/Intro-to-Databases"
-        },
-        {
-            "title": "OnlineShop",
-            "slug": "onlineshop",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "03/03/2014",
-            "technologies": [
-                "Javascript"
-            ],
-            "website": "https://onlineshop0.netlify.app",
-            "github": "https://github.com/ac-png/OnlineShop"
-        },
-        {
-            "title": "ObjectWorld",
-            "slug": "objectworld",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "05/05/2015",
-            "technologies": [
-                "Javascript"
-            ],
-            "website": "https://objectworld.netlify.app",
-            "github": "https://github.com/ac-png/ObjectWorld"
-        },
-        {
-            "title": "GladiatorArena",
-            "slug": "gladiatorarena",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "07/07/2016",
-            "technologies": [
-                "Javascript"
-            ],
-            "website": "https://gladiatorarena.netlify.app",
-            "github": "https://github.com/ac-png/GladiatorArena"
-        },
-        {
-            "title": "AnimalKingdom",
-            "slug": "animalkingdom",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "07/07/2016",
-            "technologies": [
-                "Javascript"
-            ],
-            "website": "https://animalkingdom0.netlify.app",
-            "github": "https://github.com/ac-png/AnimalKingdom"
-        },
-        {
-            "title": "CarCollection",
-            "slug": "carcollection",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "09/09/2017",
-            "technologies": [
-                "Javascript"
-            ],
-            "website": "https://carcollection0.netlify.app",
-            "github": "https://github.com/ac-png/CarCollection"
-        },
-        {
-            "title": "Software Project",
-            "slug": "software-project",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "Laravel",
-                "HTML",
-                "PHP",
-                "Bootstrap"
-            ],
-            "website": "https://example.com/LoremIpsum",
-            "github": "https://github.com/ac-png/Software-Project"
-        },
-        {
-            "title": "REST Countries",
-            "slug": "rest-countries",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "REACT",
-                "Javascript",
-                "HTML"
-            ],
-            "website": "https://rest-countries-cb4fa.web.app",
-            "github": "https://github.com/ac-png/REST-Countries"
-        },
-        {
-            "title": "TodoApp",
-            "slug": "todoapp",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "REACT",
-                "Javascript",
-                "HTML"
-            ],
-            "website": "https://todoapp-563e0.web.app/",
-            "github": "https://github.com/ac-png/TodoApp"
-        },
-        {
-            "title": "ReactGiph",
-            "slug": "reactgiph",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "REACT",
-                "Javascript",
-                "HTML"
-            ],
-            "website": "https://reactgiph.web.app/",
-            "github": "https://github.com/ac-png/ReactGiph"
-        },
-        {
-            "title": "Database Design",
-            "slug": "database-design",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "MySQL"
-            ],
-            "website": "https://example.com/LoremIpsum",
-            "github": "https://github.com/ac-png/Database-Design"
-        },
-        {
-            "title": "Building a Chart Classes in Javascript",
-            "slug": "building-a-chart-classes-in-javascript",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "Javascript",
-                "p5.js"
-            ],
-            "website": "https://building-a-chart-classes-in-javascrip.netlify.app/",
-            "github": "https://github.com/ac-png/Building-a-Chart-Classes-in-Javascript"
-        },
-        {
-            "title": "Newspaper Design and Development Project",
-            "slug": "newspaper-design-and-development-project",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "PHP",
-                "HTML",
-                "CSS",
-                "Javascript"
-            ],
-            "website": "https://example.com/LoremIpsum",
-            "github": "https://github.com/ac-png/LoremIpsum"
-        },
-        {
-            "title": "LiteNotes",
-            "slug": "litenotes",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "Laravel",
-                "HTML",
-                "PHP",
-                "Bootstrap"
-            ],
-            "website": "https://example.com/LoremIpsum",
-            "github": "https://github.com/ac-png/LiteNotes"
-        },
-        {
-            "title": "Superdry HTML Prototype",
-            "slug": "superdry-html-prototype",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "HTML",
-                "CSS"
-            ],
-            "website": "https://superdry-html-prototype.netlify.app/",
-            "github": "https://github.com/ac-png/Superdry-HTML-Prototype"
-        },
-        {
-            "title": "Responsive Event Booking Website",
-            "slug": "responsive-event-booking-website",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "HTML",
-                "Bootstrap"
-            ],
-            "website": "https://responsive-event-booking-website.netlify.app/",
-            "github": "https://github.com/ac-png/Responsive-Event-Booking-Website"
-        },
-        {
-            "title": "VeterinaryHospital",
-            "slug": "veterinaryhospital",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "date": "Lorem ipsum",
-            "technologies": [
-                "Laravel",
-                "HTML",
-                "PHP",
-                "Bootstrap"
-            ],
-            "website": "https://example.com/LoremIpsum",
-            "github": "https://github.com/ac-png/VeterinaryHospital"
+            "slug": "portfolio"
         }
     ]
 }

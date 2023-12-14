@@ -8,13 +8,11 @@ import ProjectsIndex from './pages/projects/Index';
 import ProjectsShow from './pages/projects/Show';
 
 import ExperienceIndex from './pages/experience/Index';
-import ExperienceShow from './pages/experience/Show';
 
 import EducationIndex from './pages/education/Index';
-import EducationShow from './pages/education/Show';
 
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -30,12 +28,10 @@ const App = () => {
             <Route path="/projects/:slug" element={<ProjectsShow/>} />
 
             <Route path="/experience" element={<ExperienceIndex/>} />
-            <Route path="/experience/:slug" element={<ExperienceShow/>} />
 
             <Route path="/education" element={<EducationIndex/>} />
-            <Route path="/education/:slug" element={<EducationShow/>} />
           </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
 
