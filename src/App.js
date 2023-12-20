@@ -3,16 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import PageNotFound from './pages/PageNotFound';
-
+import Education from './pages/Education';
+import Experience from './pages/Experience';
 import ProjectsIndex from './pages/projects/Index';
-import ProjectsShow from './pages/projects/Show';
-
-import ExperienceIndex from './pages/experience/Index';
-
-import EducationIndex from './pages/education/Index';
 
 import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -22,16 +17,11 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/contact" element={<Contact/>} />
-            <Route path='*' element={<PageNotFound/>} />
-
+            <Route path="/education" element={<Education/>} />
+            <Route path="/experience" element={<Experience/>} />
             <Route path="/projects" element={<ProjectsIndex/>} />
-            <Route path="/projects/:slug" element={<ProjectsShow/>} />
-
-            <Route path="/experience" element={<ExperienceIndex/>} />
-
-            <Route path="/education" element={<EducationIndex/>} />
+            <Route path='*' element={<PageNotFound/>} />
           </Routes>
-        {/* <Footer /> */}
       </Router>
     </div>
 
