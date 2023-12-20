@@ -1,5 +1,11 @@
 body {
   background-color: #f8f9fa;
+  font-family: 'Lexend', sans-serif;
+}
+
+.mainTitle {
+  font-family: 'Lobster', sans-serif;
+  font-size: 50px;
 }
 
 .card {
@@ -14,15 +20,15 @@ body {
 }
 
 .card-title-education {
-  color: #007bff; /* Education Section */
+  color: #007bff;
 }
 
 .card-title-experience {
-  color: #28a745; /* Experience Section */
+  color: #28a745;
 }
 
 .card-title-projects {
-  color: #dc3545; /* Experience Section */
+  color: #dc3545;
 }
 
 .contact-form {

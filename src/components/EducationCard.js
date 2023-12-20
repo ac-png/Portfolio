@@ -15,7 +15,7 @@ function EducationCard() {
         };
 
         fetchData();
-    });
+    }, []);
 
     if (!educationData) {
         return <div>Loading...</div>;
@@ -26,7 +26,7 @@ function EducationCard() {
         {educationData.map((education, i) => (
             <div key={i} className="card mb-4">
                 <div className="card-body">
-                    <h5 className="card-title card-title-education"><i class="fas fa-graduation-cap"></i> {education.degree}</h5>
+                    <h5 className="card-title card-title-education"><i className="fas fa-graduation-cap"></i> {education.degree}</h5>
                     <p className="card-text">{education.institution}, {education.duration}</p>
                 </div>
             </div>

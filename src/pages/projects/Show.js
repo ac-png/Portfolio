@@ -25,35 +25,29 @@ function Show() {
 
     return (
         <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title">{projectData.title}</h5>
-                            <p className="card-text">
-                                <p>{projectData.description}</p>
-                                <p>Date: {projectData.date}</p>
-                                <p>Technologies Used: {projectData.technologies.join(', ')}</p>
-                            </p>
-                            <a href={projectData.website} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Visit Website</a>
-                            <a href={projectData.github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View on GitHub</a>
-                            <Link to="/projects" className="text-decoration-none btn btn-link">Go Back to Projects</Link>
-                        </div>
-                    </div>
+            <div className="card">
+                <div className="card-body">
+                    <h5 className="card-title">{projectData.title}</h5>
+                    <p className="card-text">
+                        <p>{projectData.description}</p>
+                        <p>Date: {projectData.date}</p>
+                        <p>Technologies Used: {projectData.technologies.join(', ')}</p>
+                    </p>
+                    <a href={projectData.website} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Visit Website</a>
+                    <a href={projectData.github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View on GitHub</a>
+                    <Link to="/projects" className="text-decoration-none btn btn-link">Go Back to Projects</Link>
                 </div>
-                <div className="col-md-6">
-                    <div className="card">
-                        <div className="card-body">
-                            <h3 className="card-title">Website Preview</h3>
-                            <iframe
-                                title={projectData.title}
-                                src={projectData.website}
-                                width="100%"
-                                height="300px"
-                                className='border'
-                            />
-                        </div>
-                    </div>
+            </div>
+            <div className="card mt-3">
+                <div className="card-body">
+                    <h3 className="card-title">Website Preview</h3>
+                    <iframe
+                        title={projectData.title}
+                        src={projectData.website}
+                        width="100%"
+                        height="300px"
+                        className='border'
+                    />
                 </div>
             </div>
         </div>

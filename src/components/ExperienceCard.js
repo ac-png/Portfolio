@@ -15,7 +15,7 @@ function ExperienceCard() {
         };
 
         fetchData();
-    });
+    }, []);
 
     if (!experienceData) {
         return <div>Loading...</div>;
