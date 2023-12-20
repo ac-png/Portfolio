@@ -5,6 +5,9 @@ import ProjectCard from "../../components/ProjectCard";
 const ProjectsIndex = () => {
     const [technologies, setTechnologies] = useState([]);
     const [projects, setProjects] = useState([]);
+    const [active, setActive] = useState(null);
+    const [tag, setTag] = useState("");
+    
 
     useEffect(() => {
         const fetchData = async () => {
@@ -22,15 +25,22 @@ const ProjectsIndex = () => {
         fetchData();
     }, []);
 
+    const handleTagClick = (technology) => {
+        setTag(technology);
+        setActive(technology);
+    };
+
     return (
         <div>
             <h2>Projects</h2>
             <div className="d-flex flex-wrap">
                 {technologies.map(technology => (
-                    <button className="btn btn-primary m-2">{technology}</button>
+                    <button key={technology} className={`btn btn-primary m-2 ${technology === active ? 'active' : ''}`} onClick={() => handleTagClick(technology)}>
+                        {technology}
+                    </button>
                 ))}
             </div>
-            <ProjectCard />
+            <ProjectCard setFilter={{tag}} />
         </div>
     );
 };

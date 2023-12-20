@@ -121,6 +121,23 @@
             "github": "https://github.com/ac-png/Portfolio"
         },
         {
+            "title": "Data Visualisation",
+            "slug": "data-visualisation",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "images": [
+                {
+                "caption": "Lorem ipsum",
+                "path": "https://picsum.photos/200/300"
+                }
+            ],
+            "date": "12/12/2012",
+            "technologies": [
+                "R"
+            ],
+            "website": "https://data-visualisation1.netlify.app",
+            "github": "https://github.com/ac-png/DataVisualisation"
+        },
+        {
             "title": "College",
             "slug": "college",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

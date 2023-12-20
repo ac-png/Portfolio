@@ -2,21 +2,28 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-function ProjectCard() {
+function ProjectCard({ setFilter }) {
     const [projectData, setProjectData] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const response = await axios.get('https://portfolio-db0f3-default-rtdb.europe-west1.firebasedatabase.app/.json');
-                const sortedProjects = response.data.projects.sort((a, b) => a.title.localeCompare(b.title));
+                console.log(setFilter['tag']);
+                if (setFilter.tag !== "") {
+                    const sortedProjects = response.data.projects.filter((project) => project.technologies.includes(setFilter.tag)).sort((a, b) => a.title.localeCompare(b.title))
                 setProjectData(sortedProjects);
+                } else {
+                    const sortedProjects = response.data.projects.sort((a, b) => a.title.localeCompare(b.title))
+                    setProjectData(sortedProjects);
+                }
+                
             } catch (error) {
                 console.error('Error fetching project data:', error);
             }
         };
         fetchData();
-    }, []);
+    }, [setFilter.tag]);
 
     if (!projectData) {
         return <div>Loading...</div>;
