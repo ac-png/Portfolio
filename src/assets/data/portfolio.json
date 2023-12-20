@@ -1,12 +1,12 @@
 {
     "contact": {
         "email": "alicecorry@icloud.com",
-        "linkedin": "www.linkedin.com/in/alice-corry",
+        "linkedin": "https://linkedin.com/in/alice-corry",
         "github": [
-            "github.com/ac-png (College)",
-            "github.com/alice-corry (Personal)"
+            "https://github.com/ac-png",
+            "https://github.com/alice-corry"
         ],
-        "portfolio": "www.example.come/alice-corry"
+        "portfolio": "https://portfolio-db0f3.web.app"
     },
     "profile": {
         "languages": ["English (Native)"],
@@ -117,7 +117,7 @@
                 "Javascript",
                 "HTML"
             ],
-            "website": "https://example.com/Portfolio",
+            "website": "https://portfolio-db0f3.web.app",
             "github": "https://github.com/ac-png/Portfolio"
         },
         {

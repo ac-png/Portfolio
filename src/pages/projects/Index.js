@@ -3,7 +3,7 @@ import ProjectCard from "../../components/ProjectCard";
 const ProjectsIndex = () => {
     return (
         <div>
-            <h2>Project</h2>
+            <h2>Projects</h2>
             <ProjectCard />
         </div>
     );

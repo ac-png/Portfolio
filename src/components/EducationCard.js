@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function EducationCard({ educationId }) {
+function EducationCard() {
     const [educationData, setEducationData] = useState(null);
 
     useEffect(() => {
@@ -15,7 +15,7 @@ function EducationCard({ educationId }) {
         };
 
         fetchData();
-    }, [educationId]);
+    });
 
     if (!educationData) {
         return <div>Loading...</div>;
@@ -26,7 +26,7 @@ function EducationCard({ educationId }) {
         {educationData.map((education, i) => (
             <div key={i} className="card mb-4">
                 <div className="card-body">
-                    <h5 className="card-title card-title-education">{education.degree}</h5>
+                    <h5 className="card-title card-title-education"><i class="fas fa-graduation-cap"></i> {education.degree}</h5>
                     <p className="card-text">{education.institution}, {education.duration}</p>
                 </div>
             </div>

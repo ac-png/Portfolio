@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-function ProjectCard({ projectId }) {
+function ProjectCard() {
     const [projectData, setProjectData] = useState(null);
 
     useEffect(() => {
@@ -15,7 +16,7 @@ function ProjectCard({ projectId }) {
         };
 
         fetchData();
-    }, [projectId]);
+    });
 
     if (!projectData) {
         return <div>Loading...</div>;
@@ -26,9 +27,9 @@ function ProjectCard({ projectId }) {
             {projectData.map((project, i) => (
                 <div className="card mb-4">
                     <div className="card-body">
-                        <h5 className="card-title card-title-projects">{project.title}</h5>
+                        <h5 className="card-title card-title-projects"><i class="fas fa-code"></i> {project.title}</h5>
                         <p className="card-text">{project.description}</p>
-                        <a href="#" className="btn btn-danger">Learn More</a>
+                        <Link to={`/projects/${project.slug}`} className="btn btn-danger">Learn More</Link>
                     </div>
                 </div>
             ))}
