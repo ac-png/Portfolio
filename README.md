@@ -32,7 +32,7 @@ Before you begin, ensure you have the following installed on your machine:
 2. Change into the project directory:
 
    ```bash
-   cd your-portfolio
+   cd Portfolio
 
 3. Install the dependencies:
 
