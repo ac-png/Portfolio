@@ -1,6 +1,6 @@
 # Portfolio React App
 
-Welcome to my portfolio React app! This project showcases my skills, projects, and experience using React. Feel free to explore and learn more about me.
+Welcome to my portfolio React app! This project showcases my education, projects, and experience using React. Feel free to explore and learn more about me.
 
 ## Table of Contents
 - [Portfolio React App](#portfolio-react-app)
