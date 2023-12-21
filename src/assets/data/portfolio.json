@@ -102,6 +102,23 @@
     ],
     "projects": [
         {
+            "title": "Animation",
+            "slug": "animation",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "images": [
+                {
+                "caption": "Lorem ipsum",
+                "path": "https://picsum.photos/200/300"
+                }
+            ],
+            "date": "12/12/2012",
+            "technologies": [
+                "Processing.org"
+            ],
+            "website": "https://animation0.netlify.app",
+            "github": "https://github.com/ac-png/Animation"
+        },
+        {
             "title": "Portfolio",
             "slug": "portfolio",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
